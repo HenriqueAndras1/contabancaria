@@ -1,6 +1,7 @@
 package conta.model;
 
-public class Conta {
+// Classe abstrata => Base para criar outras Classes
+public abstract class Conta {
 
 	// Atributos / Variaveis
 	private int numero;
@@ -14,7 +15,7 @@ public class Conta {
 	 * 
 	 * Private - Somente a propria class pode acessar, exemplo celular particular
 	 * Protected - Somente arquivos dentro do mesmo pacote, exemplo telefone
-	 * residencial public - Qualquer class pode acessar, exemplo orelha Default -
+	 * residencial public - Qualquer class pode acessar, exemplo orelhao Default -
 	 */
 
 	// Método Especial - Método Construtor
