@@ -45,8 +45,8 @@ public class ContaCorrente extends Conta { // extends => herança
 	this.setSaldo(this.getSaldo()- valor);
 	return true;
 	}
-	public void vizualizar() {
+	public void visualizar() {
 		super.visualizar();
-		System.out.println("Limite de Crédito: "+ this.limite);
+		System.out.println("Limite de Crédito: " + this.limite);
 	}
 }
